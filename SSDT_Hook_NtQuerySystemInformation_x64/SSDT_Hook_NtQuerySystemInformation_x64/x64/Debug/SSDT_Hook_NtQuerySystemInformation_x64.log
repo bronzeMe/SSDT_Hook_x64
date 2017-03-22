@@ -1,0 +1,19 @@
+﻿  Building 'SSDT_Hook_NtQuerySysInfor_x64' with toolset 'WindowsKernelModeDriver10.0' and the 'Desktop' target platform.
+  SSDT_hook_NtQuerySysInfo_x64.cpp
+h:\sys_project\ssdt_hook_ntquerysysteminformation_x64\ssdt_hook_ntquerysysteminformation_x64\SSDT_Hook.h(216): warning C4391: “__int64 __readmsr(int)”: 不正确的内部函数返回类型，应为“unsigned __int64”
+SSDT_hook_NtQuerySysInfo_x64.cpp(88): warning C4459: “index”的声明隐藏了全局声明
+  h:\sys_project\ssdt_hook_ntquerysysteminformation_x64\ssdt_hook_ntquerysysteminformation_x64\SSDT_Hook.h(240): note: 参见“index”的声明
+SSDT_hook_NtQuerySysInfo_x64.cpp(205): warning C4311: “类型转换”: 从“HANDLE”到“ULONG”的指针截断
+SSDT_hook_NtQuerySysInfo_x64.cpp(205): warning C4302: “类型转换”: 从“HANDLE”到“ULONG”截断
+SSDT_hook_NtQuerySysInfo_x64.cpp(205): warning C4189: “uPID”: 局部变量已初始化但不引用
+SSDT_hook_NtQuerySysInfo_x64.cpp(323): warning C4189: “dwtmp”: 局部变量已初始化但不引用
+SSDT_hook_NtQuerySysInfo_x64.cpp(372): warning C4244: “初始化”: 从“ULONGLONG”转换到“ULONG”，可能丢失数据
+SSDT_hook_NtQuerySysInfo_x64.cpp(365): warning C4100: “pRegistryPath”: 未引用的形参
+SSDT_hook_NtQuerySysInfo_x64.cpp(364): warning C4100: “pDriverObject”: 未引用的形参
+  SSDT_Hook_NtQuerySystemInformation_x64.vcxproj -> H:\Sys_project\SSDT_Hook_NtQuerySystemInformation_x64\x64\Debug\SSDT_Hook_NtQuerySysInfor_x64.sys
+  SSDT_Hook_NtQuerySystemInformation_x64.vcxproj -> H:\Sys_project\SSDT_Hook_NtQuerySystemInformation_x64\x64\Debug\SSDT_Hook_NtQuerySysInfor_x64.pdb (Full PDB)
+  Done Adding Additional Store
+  Successfully signed: H:\Sys_project\SSDT_Hook_NtQuerySystemInformation_x64\x64\Debug\SSDT_Hook_NtQuerySysInfor_x64.sys
+  
+  Inf2Cat task was skipped as there were no inf files to process
+  

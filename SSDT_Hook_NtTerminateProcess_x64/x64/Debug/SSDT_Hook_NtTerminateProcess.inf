@@ -1,0 +1,32 @@
+;
+; SSDT_Hook_NtTerminateProcess.inf
+;
+
+[Version]
+Signature="$WINDOWS NT$"
+Class=
+ClassGuid=
+Provider=
+DriverVer=03/16/2017,17.29.4.158
+CatalogFile=
+
+[DestinationDirs]
+DefaultDestDir = 12
+
+
+[SourceDisksNames]
+1 = %DiskName%,,,""
+
+[SourceDisksFiles]
+
+
+[Manufacturer]
+%ManufacturerName%=Standard,NTamd64
+
+[Standard.NTamd64]
+
+
+[Strings]
+ManufacturerName=""
+ClassName=""
+DiskName="SSDT_Hook_NtTerminateProcess Source Disk"
